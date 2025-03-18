@@ -1,6 +1,19 @@
-# Flask Web Application
+# GPEC 2025: Coding Challenge
 
-A Flask web application with proper project structure following best practices.
+*This application was developed in 45 minutes using various AI tools as part of the Global Prompt Engineering Championship 2025 in Dubai, UAE. More information: [prompt.dub.ai](https://prompt.dub.ai)*
+
+## Used Technologies (AI tools)
+
+| Category | Technologies | AI Tools Used |
+|----------|-------------|---------------|
+| Frontend | HTML / CSS, JavaScript, Tailwind CSS | [<img src="https://freepnglogo.com/images/all_img/claude-ai-icon-65aa.png" alt="Claude Logo" width="20"/> Claude 3.7](https://www.anthropic.com/claude) / [3.7 Thinking](https://www.anthropic.com/claude) (Preview) |
+| Backend | Python, Flask | [<img src="https://openai.com/favicon.ico" alt="OpenAI Logo" width="20"/> GPT-o3-mini](https://openai.com/), [<img src="https://freepnglogo.com/images/all_img/claude-ai-icon-65aa.png" alt="Claude Logo" width="20"/> Claude 3.5](https://www.anthropic.com/claude) / [3.7](https://www.anthropic.com/claude) (Preview) |
+| App AI Functions | Gemini AI API by Google | [<img src="https://freepnglogo.com/images/all_img/claude-ai-icon-65aa.png" alt="Claude Logo" width="20"/> Claude 3.7](https://www.anthropic.com/claude) (Preview), [<img src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/gemini-color.png" alt="Gemini Logo" width="20"/> Gemini 2.0 Flash](https://ai.google.dev/gemini-api) (Experimental) |
+| Deployment | Vercel | [<img src="https://freepnglogo.com/images/all_img/claude-ai-icon-65aa.png" alt="Claude Logo" width="20"/> Claude 3.7](https://www.anthropic.com/claude) (Preview) |
+| Version Control | GitHub | [<img src="https://freepnglogo.com/images/all_img/claude-ai-icon-65aa.png" alt="Claude Logo" width="20"/> Claude 3.7](https://www.anthropic.com/claude) (Preview) |
+| Image Generation | Logo / Images Creation | [<img src="https://openai.com/favicon.ico" alt="OpenAI Logo" width="20"/> DALL-E 3.0](https://openai.com/dall-e-3) by OpenAI, [<img src="https://www.google.com/favicon.ico" alt="Google Logo" width="20"/> ImaGen 3.0](https://imagen.research.google/) by Google |
+| General Coding | Assistance | [<img src="https://www.podfeet.com/blog/wp-content/uploads/2021/09/GitHub-Copilot-logo-1040x650.png" alt="GitHub Logo" width="20"/> GitHub Copilot](https://github.com/features/copilot), [<img src="https://freepnglogo.com/images/all_img/claude-ai-icon-65aa.png" alt="Claude Logo" width="20"/> Claude 3.7](https://www.anthropic.com/claude) / [3.7 Thinking](https://www.anthropic.com/claude) (Preview), [<img src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/gemini-color.png" alt="Gemini Logo" width="20"/> Gemini 2.0 Flash](https://ai.google.dev/gemini-api) (Experimental), [<img src="https://openai.com/favicon.ico" alt="OpenAI Logo" width="20"/> GPT-o3-mini](https://openai.com/) |
+| Research | Information Gathering | [<img src="https://www.perplexity.ai/favicon.ico" alt="Perplexity AI Logo" width="20"/> Perplexity](https://www.perplexity.ai/) |
 
 ## Setup
 
@@ -16,27 +29,24 @@ A Flask web application with proper project structure following best practices.
    ```
    pip install -r requirements.txt
    ```
-5. Run the application:
+5. Set the environment variables by creating a `.env` file according to the `.env.example` file.
+6. Run the application:
    ```
    python run.py
    ```
 
-## Project Structure
-
-- `app/`: Application package
-  - `__init__.py`: Initialize Flask app
-  - `main/`: Main blueprint with routes
-  - `templates/`: HTML templates
-  - `static/`: Static files (CSS, JS, images)
-- `run.py`: Entry point for development server
-- `wsgi.py`: WSGI entry point for production
-- `config.py`: Configuration settings
-- `vercel.json`: Vercel deployment configuration
-- `package.json`: Build scripts for Vercel deployment
-
 ## Deployment
 
-*Production deployment command:*
+*Production Deployment Command:*
+
 ```bash 
     uvicorn run:app --host 0.0.0.0 --port 8000 --reload
 ```
+
+*Vercel Configuration: [vercel.json](vercel.json)*
+
+## References
+
+- ANTHROPIC Prompt Engineering: [docs.anthropic.com](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
+- Awesome Claude Prompts: [github.com](https://github.com/langgptai/awesome-claude-prompts)
+- Gemini API Cookbook: [github.com](https://github.com/google-gemini/cookbook/tree/main/quickstarts)
