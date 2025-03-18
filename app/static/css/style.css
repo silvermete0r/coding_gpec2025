@@ -67,19 +67,19 @@ body {
 }
 
 #stars {
-    background: transparent url('https://i.imgur.com/YKY28eT.png') repeat top center;
+    background: transparent url('/static/imgs/stars1.png') repeat top center;
     z-index: 0;
     animation: twinkle 4s ease-in-out infinite;
 }
 
 #stars2 {
-    background: transparent url('https://i.imgur.com/4VP7cFr.png') repeat top center;
+    background: transparent url('/static/imgs/stars2.png') repeat top center;
     z-index: 1;
     animation: twinkle 6s ease-in-out infinite;
 }
 
 #stars3 {
-    background: transparent url('https://i.imgur.com/NrMWqbv.png') repeat top center;
+    background: transparent url('/static/imgs/stars3.png') repeat top center;
     z-index: 2;
     animation: twinkle 8s ease-in-out infinite;
 }
