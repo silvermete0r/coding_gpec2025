@@ -1,0 +1,15 @@
+# Allow folder structure to be committed but ignore all image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.webp
+*.ico
+
+# Except for these specific images that should be included
+!artemis.png
+!lunar.png
+!mars.png
+!logo.png
+!ai-assistant.jpg

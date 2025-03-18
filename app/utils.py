@@ -16,7 +16,7 @@ def generate_content(prompt: str, model: str = "gemini-1.5-flash", max_tokens: i
     try:
         initialize_gemini_api()
         
-        # Configure the model
+        # Configure the model with space travel context
         generation_config = {
             "max_output_tokens": max_tokens,
             "temperature": 0.7,
@@ -24,15 +24,26 @@ def generate_content(prompt: str, model: str = "gemini-1.5-flash", max_tokens: i
             "top_k": 40
         }
         
+        # Space travel system instruction
+        system_instruction = """You are NOVA, an AI space travel assistant for Dubai to the Stars. 
+        You help customers with:
+        - Space travel recommendations
+        - Destination information
+        - Safety protocols and requirements
+        - Trip planning and scheduling
+        - Accommodation details
+        Always maintain a professional yet friendly tone, and provide specific details about space travel options."""
+        
         # Get the model
-        model = genai.GenerativeModel(model_name=model, 
-                                     generation_config=generation_config,
-                                     system_instruction="You are story-teller.")
+        model = genai.GenerativeModel(
+            model_name=model,
+            generation_config=generation_config,
+            system_instruction=system_instruction
+        )
         
         # Generate content
         response = model.generate_content(prompt)
         
-        # Return formatted response
         return {
             "status": True,
             "content": response.text
@@ -42,7 +53,7 @@ def generate_content(prompt: str, model: str = "gemini-1.5-flash", max_tokens: i
         return {
             "status": False,
             "error": str(e),
-            "content": "Sorry, I couldn't generate a response at this time."
+            "content": "I apologize, but I'm unable to assist with your space travel query at the moment."
         }
 
 if __name__ == "__main__":

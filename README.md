@@ -2,12 +2,11 @@
 
 [![Stars](https://img.shields.io/github/stars/silvermete0r/coding_gpec2025)](https://github.com/silvermete0r/coding_gpec2025/stargazers)
 [![Forks](https://img.shields.io/github/forks/silvermete0r/coding_gpec2025)](https://github.com/silvermete0r/coding_gpec2025/network/members)
-[![Issues](https://img.shields.io/github/issues/silvermete0r/coding_gpec2025)](https://github.com/silvermete0r/coding_gpec2025/issues)
-[![MIT License](https://img.shields.io/github/license/silvermete0r/coding_gpec2025)](https://github.com/silvermete0r/coding_gpec2025/blob/main/LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/silvermete0r/coding_gpec2025)](https://github.com/silvermete0r/coding_gpec2025/commits/main)
 [![GPEC 2025](https://img.shields.io/badge/🚀-GPEC%202025-blue)](https://prompt.dub.ai)
 
 *This application was developed in 45 minutes using various AI tools as part of the Global Prompt Engineering Championship (GPEC) 2025 in Dubai, UAE. More information: [prompt.dub.ai](https://prompt.dub.ai)*
+
+**Challenge Topic:** Develop a space travel booking application.
 
 ## Used Technologies (AI tools)
 
