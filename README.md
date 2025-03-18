@@ -8,6 +8,8 @@
 
 **Challenge Topic:** Develop a space travel booking application.
 
+**Post-Contest Notes:** This app was fully developed in 45 minutes according to the provided topic and requirements. App was built using free AI tools, without any PRO subscriptions + Deployment was done on Vercel. The app is a simple prototype and may contain bugs or issues. The app is not intended for production use. [18 March 2025]
+
 ## Used Technologies (AI tools)
 
 | Category | Technologies | AI Tools Used |
