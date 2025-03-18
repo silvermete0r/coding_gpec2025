@@ -1,6 +1,7 @@
 # Virtual environment
 .venv/
 .env
+.flaskenv
 
 # Python cache files
 __pycache__/
@@ -9,9 +10,8 @@ __pycache__/
 *.so
 .Python
 
-# Flask environment variables
-.env
-.flaskenv
+# Prompts base for AI
+.prompts.md
 
 # IDE files
 .idea/

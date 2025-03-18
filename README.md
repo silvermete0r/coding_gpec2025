@@ -50,3 +50,4 @@
 - ANTHROPIC Prompt Engineering: [docs.anthropic.com](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
 - Awesome Claude Prompts: [github.com](https://github.com/langgptai/awesome-claude-prompts)
 - Gemini API Cookbook: [github.com](https://github.com/google-gemini/cookbook/tree/main/quickstarts)
+- ANTHROPIC Prompt Engineering Tutorial: [github.com](https://github.com/anthropics/prompt-eng-interactive-tutorial)
