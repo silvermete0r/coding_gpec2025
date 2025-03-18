@@ -32,6 +32,7 @@ A Flask web application with proper project structure following best practices.
 - `wsgi.py`: WSGI entry point for production
 - `config.py`: Configuration settings
 - `vercel.json`: Vercel deployment configuration
+- `package.json`: Build scripts for Vercel deployment
 
 ## Deployment
 
@@ -40,3 +41,11 @@ This application is configured for deployment on Vercel. To deploy:
 1. Install Vercel CLI: `npm i -g vercel`
 2. Run `vercel` from the project root
 3. Follow the prompts to complete deployment
+
+### Vercel Configuration
+
+The deployment uses these settings:
+- **Root Directory**: ./
+- **Build Command**: npm run vercel-build
+- **Output Directory**: .
+- **Install Command**: pip install -r requirements.txt
